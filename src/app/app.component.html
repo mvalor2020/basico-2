@@ -1,0 +1,8 @@
+Hoy: {{ today | date:'fullDate' }}
+<br/>
+<!-- CLP - Chilean Peso -->
+Valor factura: {{totalBill | currency:'CLP'}}
+<br/>
+Redeondeo Número: {{totalBill | number:'1.0-0'}}
+<br/>
+Mayúsculas: {{text | uppercase}}
